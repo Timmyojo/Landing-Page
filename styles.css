@@ -190,3 +190,79 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 786px) {
+
+    .header .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px 0 10px;
+    }
+
+    .header .hero {
+        display: block;
+        margin: 50px;
+    }
+
+    .header .hero h1  {
+        font-size: 38px;
+        font-weight: 900;
+        color: #f9faf8;
+        line-height: 1.1;
+    }
+    
+    .header .hero .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        height: auto;
+    }
+    
+    .header .hero img {
+        width: 350px;
+        height: auto;
+        border-radius: 2px;
+        margin-top: 30px;
+    }
+
+    .services .service-boxes {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+    
+
+    .testimonial .container {
+        width: 3500px;
+    }
+    
+    .testimonial p {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .testimonial .name {
+        text-align: right;
+        font-weight: 900;
+    }
+
+    .call-to-action .container {
+        background-color: #3882f6;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 50px auto;
+        border-radius: 4px;
+    
+    }
+    
+}
