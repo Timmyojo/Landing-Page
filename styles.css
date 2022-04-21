@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header .nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+.header .nav-list a:hover{
+    color: #3882f6;
+}
+
+.header .hero {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .logo {
+    font-size: 30px;
+    color: #f9faf8;
+} 
+
+.header .hero h1  {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    line-height: 1.1;
+}
+
+.header .hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: auto;
+}
+
+.header .hero p, a, .cta-p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header .hero img {
+    width: 500px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.btn {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.services {
+    margin: 10px 0;
+}
+
+.services h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services .service-boxes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.services .service-box {
+    width: 225px;
+}
+
+.services p {
+    font-weight: normal;
+}
+.services img {
+    height: 225px;
+    width: 225px;
+    border: #3882f6 3px solid;
+    border-radius: 2px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    height: 320px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+}
+
+.testimonial .container {
+    width: 1000px;
+}
+
+.testimonial .name {
+    text-align: right;
+    font-weight: 900;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+    margin: 50px auto;
+    border-radius: 4px;
+
+}
+
+.call-to-action h2 {
+    color: #f9faf8;
+}
+
+.call-to-action a {
+    color: #f9faf8;
+    border: #f9faf8 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.footer{
+    height: 60px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
